@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654E745F272C9406007C3E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E745E272C9406007C3E2E /* AppDelegate.swift */; };
+		654E7461272C9406007C3E2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E7460272C9406007C3E2E /* SceneDelegate.swift */; };
+		654E7463272C9406007C3E2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E7462272C9406007C3E2E /* ViewController.swift */; };
+		654E7466272C9406007C3E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654E7464272C9406007C3E2E /* Main.storyboard */; };
+		654E7468272C9407007C3E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E7467272C9407007C3E2E /* Assets.xcassets */; };
+		654E746B272C9407007C3E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654E7469272C9407007C3E2E /* LaunchScreen.storyboard */; };
+		654E7470272C9407007C3E2E /* Auto layout and autoresizing WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 654E746F272C9407007C3E2E /* Auto layout and autoresizing WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		654E7476272C9407007C3E2E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654E7474272C9407007C3E2E /* Interface.storyboard */; };
+		654E7478272C9408007C3E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E7477272C9408007C3E2E /* Assets.xcassets */; };
+		654E747E272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 654E747D272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		654E7483272C9408007C3E2E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E7482272C9408007C3E2E /* InterfaceController.swift */; };
+		654E7485272C9408007C3E2E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E7484272C9408007C3E2E /* ExtensionDelegate.swift */; };
+		654E7487272C9408007C3E2E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E7486272C9408007C3E2E /* NotificationController.swift */; };
+		654E7489272C9408007C3E2E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E7488272C9408007C3E2E /* ComplicationController.swift */; };
+		654E748B272C9408007C3E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654E748A272C9408007C3E2E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654E7471272C9407007C3E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654E7453272C9406007C3E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654E746E272C9407007C3E2E;
+			remoteInfo = "Auto layout and autoresizing WatchKit App";
+		};
+		654E747F272C9408007C3E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654E7453272C9406007C3E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654E747C272C9408007C3E2E;
+			remoteInfo = "Auto layout and autoresizing WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		654E7493272C9408007C3E2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				654E747E272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654E7497272C9408007C3E2E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				654E7470272C9407007C3E2E /* Auto layout and autoresizing WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		654E745B272C9406007C3E2E /* Auto layout and autoresizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto layout and autoresizing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654E745E272C9406007C3E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		654E7460272C9406007C3E2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		654E7462272C9406007C3E2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		654E7465272C9406007C3E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		654E7467272C9407007C3E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654E746A272C9407007C3E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		654E746C272C9407007C3E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654E746F272C9407007C3E2E /* Auto layout and autoresizing WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto layout and autoresizing WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654E7475272C9407007C3E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		654E7477272C9408007C3E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654E747D272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Auto layout and autoresizing WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654E7482272C9408007C3E2E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		654E7484272C9408007C3E2E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		654E7486272C9408007C3E2E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		654E7488272C9408007C3E2E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		654E748A272C9408007C3E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654E748C272C9408007C3E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654E748D272C9408007C3E2E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654E7458272C9406007C3E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654E747A272C9408007C3E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654E7452272C9406007C3E2E = {
+			isa = PBXGroup;
+			children = (
+				654E745D272C9406007C3E2E /* Auto layout and autoresizing */,
+				654E7473272C9407007C3E2E /* Auto layout and autoresizing WatchKit App */,
+				654E7481272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension */,
+				654E745C272C9406007C3E2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654E745C272C9406007C3E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654E745B272C9406007C3E2E /* Auto layout and autoresizing.app */,
+				654E746F272C9407007C3E2E /* Auto layout and autoresizing WatchKit App.app */,
+				654E747D272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654E745D272C9406007C3E2E /* Auto layout and autoresizing */ = {
+			isa = PBXGroup;
+			children = (
+				654E745E272C9406007C3E2E /* AppDelegate.swift */,
+				654E7460272C9406007C3E2E /* SceneDelegate.swift */,
+				654E7462272C9406007C3E2E /* ViewController.swift */,
+				654E7464272C9406007C3E2E /* Main.storyboard */,
+				654E7467272C9407007C3E2E /* Assets.xcassets */,
+				654E7469272C9407007C3E2E /* LaunchScreen.storyboard */,
+				654E746C272C9407007C3E2E /* Info.plist */,
+			);
+			path = "Auto layout and autoresizing";
+			sourceTree = "<group>";
+		};
+		654E7473272C9407007C3E2E /* Auto layout and autoresizing WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				654E7474272C9407007C3E2E /* Interface.storyboard */,
+				654E7477272C9408007C3E2E /* Assets.xcassets */,
+			);
+			path = "Auto layout and autoresizing WatchKit App";
+			sourceTree = "<group>";
+		};
+		654E7481272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				654E7482272C9408007C3E2E /* InterfaceController.swift */,
+				654E7484272C9408007C3E2E /* ExtensionDelegate.swift */,
+				654E7486272C9408007C3E2E /* NotificationController.swift */,
+				654E7488272C9408007C3E2E /* ComplicationController.swift */,
+				654E748A272C9408007C3E2E /* Assets.xcassets */,
+				654E748C272C9408007C3E2E /* Info.plist */,
+				654E748D272C9408007C3E2E /* PushNotificationPayload.apns */,
+			);
+			path = "Auto layout and autoresizing WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654E745A272C9406007C3E2E /* Auto layout and autoresizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654E7498272C9408007C3E2E /* Build configuration list for PBXNativeTarget "Auto layout and autoresizing" */;
+			buildPhases = (
+				654E7457272C9406007C3E2E /* Sources */,
+				654E7458272C9406007C3E2E /* Frameworks */,
+				654E7459272C9406007C3E2E /* Resources */,
+				654E7497272C9408007C3E2E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654E7472272C9407007C3E2E /* PBXTargetDependency */,
+			);
+			name = "Auto layout and autoresizing";
+			productName = "Auto layout and autoresizing";
+			productReference = 654E745B272C9406007C3E2E /* Auto layout and autoresizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654E746E272C9407007C3E2E /* Auto layout and autoresizing WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654E7494272C9408007C3E2E /* Build configuration list for PBXNativeTarget "Auto layout and autoresizing WatchKit App" */;
+			buildPhases = (
+				654E746D272C9407007C3E2E /* Resources */,
+				654E7493272C9408007C3E2E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654E7480272C9408007C3E2E /* PBXTargetDependency */,
+			);
+			name = "Auto layout and autoresizing WatchKit App";
+			productName = "Auto layout and autoresizing WatchKit App";
+			productReference = 654E746F272C9407007C3E2E /* Auto layout and autoresizing WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		654E747C272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654E7490272C9408007C3E2E /* Build configuration list for PBXNativeTarget "Auto layout and autoresizing WatchKit Extension" */;
+			buildPhases = (
+				654E7479272C9408007C3E2E /* Sources */,
+				654E747A272C9408007C3E2E /* Frameworks */,
+				654E747B272C9408007C3E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Auto layout and autoresizing WatchKit Extension";
+			productName = "Auto layout and autoresizing WatchKit Extension";
+			productReference = 654E747D272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654E7453272C9406007C3E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					654E745A272C9406007C3E2E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					654E746E272C9407007C3E2E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					654E747C272C9408007C3E2E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 654E7456272C9406007C3E2E /* Build configuration list for PBXProject "Auto layout and autoresizing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654E7452272C9406007C3E2E;
+			productRefGroup = 654E745C272C9406007C3E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654E745A272C9406007C3E2E /* Auto layout and autoresizing */,
+				654E746E272C9407007C3E2E /* Auto layout and autoresizing WatchKit App */,
+				654E747C272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654E7459272C9406007C3E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654E746B272C9407007C3E2E /* LaunchScreen.storyboard in Resources */,
+				654E7468272C9407007C3E2E /* Assets.xcassets in Resources */,
+				654E7466272C9406007C3E2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654E746D272C9407007C3E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654E7478272C9408007C3E2E /* Assets.xcassets in Resources */,
+				654E7476272C9407007C3E2E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654E747B272C9408007C3E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654E748B272C9408007C3E2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654E7457272C9406007C3E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654E7463272C9406007C3E2E /* ViewController.swift in Sources */,
+				654E745F272C9406007C3E2E /* AppDelegate.swift in Sources */,
+				654E7461272C9406007C3E2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654E7479272C9408007C3E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654E7487272C9408007C3E2E /* NotificationController.swift in Sources */,
+				654E7489272C9408007C3E2E /* ComplicationController.swift in Sources */,
+				654E7485272C9408007C3E2E /* ExtensionDelegate.swift in Sources */,
+				654E7483272C9408007C3E2E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654E7472272C9407007C3E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654E746E272C9407007C3E2E /* Auto layout and autoresizing WatchKit App */;
+			targetProxy = 654E7471272C9407007C3E2E /* PBXContainerItemProxy */;
+		};
+		654E7480272C9408007C3E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654E747C272C9408007C3E2E /* Auto layout and autoresizing WatchKit Extension */;
+			targetProxy = 654E747F272C9408007C3E2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		654E7464272C9406007C3E2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654E7465272C9406007C3E2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		654E7469272C9407007C3E2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654E746A272C9407007C3E2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		654E7474272C9407007C3E2E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654E7475272C9407007C3E2E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654E748E272C9408007C3E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		654E748F272C9408007C3E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		654E7491272C9408007C3E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838MB9538S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto layout and autoresizing WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto layout and autoresizing WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		654E7492272C9408007C3E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838MB9538S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto layout and autoresizing WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto layout and autoresizing WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		654E7495272C9408007C3E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838MB9538S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Auto_layout_and_autoresizing_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto layout and autoresizing WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		654E7496272C9408007C3E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838MB9538S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Auto_layout_and_autoresizing_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto layout and autoresizing WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		654E7499272C9408007C3E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838MB9538S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto layout and autoresizing/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654E749A272C9408007C3E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 838MB9538S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto layout and autoresizing/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lastbrain.corsohidran.autores.Auto-layout-and-autoresizing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654E7456272C9406007C3E2E /* Build configuration list for PBXProject "Auto layout and autoresizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654E748E272C9408007C3E2E /* Debug */,
+				654E748F272C9408007C3E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654E7490272C9408007C3E2E /* Build configuration list for PBXNativeTarget "Auto layout and autoresizing WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654E7491272C9408007C3E2E /* Debug */,
+				654E7492272C9408007C3E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654E7494272C9408007C3E2E /* Build configuration list for PBXNativeTarget "Auto layout and autoresizing WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654E7495272C9408007C3E2E /* Debug */,
+				654E7496272C9408007C3E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654E7498272C9408007C3E2E /* Build configuration list for PBXNativeTarget "Auto layout and autoresizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654E7499272C9408007C3E2E /* Debug */,
+				654E749A272C9408007C3E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654E7453272C9406007C3E2E /* Project object */;
+}
